@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="47927ae2-3eb9-4d3c-904d-61427883a63c" Name="Ultimate Raids" Enabled="true">
+    <Folders>
+      <Folder Id="27be90d4-3ad6-4491-a106-2b626c2f1779" Name="UCoB" Enabled="true">
+        <Folders />
+        <Triggers>
+          <Trigger Enabled="true" Name="Twintania readies Twister." Id="426a7170-0c4d-49b8-92a7-b89c85c5d5bf" RegularExpression="Twintania readies Twister.">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Twister" TextAuraFontSize="0" ActionType="UseTTS" />
+            </Actions>
+          </Trigger>
+          <Trigger Enabled="true" Name="You suffer the effect of Doom." Id="739213ba-283f-44de-9ea7-7b4844d6bd90" RegularExpression="You suffer the effect of Doom.">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Doom" TextAuraFontSize="0" ActionType="UseTTS" />
+            </Actions>
+          </Trigger>
+          <Trigger Enabled="true" Name="You suffer the effect of Thunderstruck." Id="5ed169cb-2029-4d57-8fc4-0f9e22f56384" RegularExpression="You suffer the effect of Thunderstruck.">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Thunder" TextAuraFontSize="0" ActionType="UseTTS" />
+            </Actions>
+          </Trigger>
+          <Trigger Enabled="false" Name="O red moon, shine the path to conquest!" Id="91ed6bb8-1a0d-4858-8c62-89c32a286fb8" RegularExpression="O red moon, shine the path to conquest!">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Dynamo + Chariot" TextAuraFontSize="0" ActionType="UseTTS" />
+            </Actions>
+          </Trigger>
+          <Trigger Enabled="false" Name="O red moon, scorch mine enemies!" Id="b4baa11b-8605-460c-a828-d7f8d7b596df" RegularExpression="O red moon, scorch mine enemies!">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Dynamo + Thermo" TextAuraFontSize="0" ActionType="UseTTS" />
+            </Actions>
+          </Trigger>
+          <Trigger Enabled="false" Name="Blazing path, lead me to conquest!" Id="e61aaf75-f1ba-4dec-8e17-f731cdc30684" RegularExpression="Blazing path, lead me to conquest!">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Thermo + Chariot" TextAuraFontSize="0" ActionType="UseTTS" />
+            </Actions>
+          </Trigger>
+          <Trigger Enabled="false" Name="O refulgent moon, shine down your light!" Id="22389c05-56c2-4f3d-882b-ec724c93b9aa" RegularExpression="O refulgent moon, shine down your light!">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Thermo + Dynamo" TextAuraFontSize="0" ActionType="UseTTS" />
+            </Actions>
+          </Trigger>
+          <Trigger Enabled="false" Name="From on high I descend, mine enemies to smite!" Id="8be44485-baf7-472b-80ab-924aa89bf20b" RegularExpression="From on high I descend, mine enemies to smite!">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Dive + Chariot" TextAuraFontSize="0" ActionType="UseTTS" />
+            </Actions>
+          </Trigger>
+          <Trigger Enabled="false" Name="From on high I descend, in blessed light to bask!" Id="96249c92-91b5-4487-86bf-98707504bb67" RegularExpression="From on high I descend, in blessed light to bask!">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Dive + Dynamo" TextAuraFontSize="0" ActionType="UseTTS" />
+            </Actions>
+          </Trigger>
+          <Trigger Enabled="false" Name="Fleeting light, outshine the stars for the moon!" Id="bbfc5c49-f4e0-4162-ae24-25bebf38d679" RegularExpression="Fleeting light, outshine the stars for the moon!">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Meteor + Dive" TextAuraFontSize="0" ActionType="UseTTS" />
+            </Actions>
+          </Trigger>
+          <Trigger Enabled="false" Name="Fleeting light, score the earth with a fiery kiss!" Id="4e01f3d4-1ddd-4d93-8b64-2c37c66817bf" RegularExpression="Fleeting light, score the earth with a fiery kiss!">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Dive + Thermo" TextAuraFontSize="0" ActionType="UseTTS" />
+            </Actions>
+          </Trigger>
+          <Trigger Enabled="false" Name="From on high I descend, a hail of stars to bring!" Id="967f3dd3-d3ef-41d7-8bcf-6deb9a0aca9a" RegularExpression="From on high I descend, a hail of stars to bring!">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Dive + Dynamo + Meteor" TextAuraFontSize="0" ActionType="UseTTS" />
+            </Actions>
+          </Trigger>
+          <Trigger Enabled="false" Name="From red moon I descend, a hail of stars to bring!" Id="8757bebd-31ce-4b82-a2ea-b90e8c3e8044" RegularExpression="From red moon I descend, a hail of stars to bring!">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Dynamo + Dive + Stream" TextAuraFontSize="0" ActionType="UseTTS" />
+            </Actions>
+          </Trigger>
+          <Trigger Enabled="false" Name="From red moon I draw steel, in my descent to bare!" Id="dc027554-a049-4670-b7ef-b112a462b0a8" RegularExpression="From red moon I draw steel, in my descent to bare!">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Dynamo + Chariot + Dive" TextAuraFontSize="0" ActionType="UseTTS" />
+            </Actions>
+          </Trigger>
+          <Trigger Enabled="false" Name="From red moon I descend, upon burning earth to tread!" Id="25ccb0d7-da8e-4fa9-958e-f888711c548a" RegularExpression="From red moon I descend, upon burning earth to tread!">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Dynamo + Dive + Thermo" TextAuraFontSize="0" ActionType="UseTTS" />
+            </Actions>
+          </Trigger>
+          <Trigger Enabled="false" Name="Gleaming steel, take fire and descend!" Id="1ea70b86-ff44-48f6-a799-9d7d4da2accb" RegularExpression="Gleaming steel, take fire and descend!">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Chariot + Thermo + Dive" TextAuraFontSize="0" ActionType="UseTTS" />
+            </Actions>
+          </Trigger>
+          <Trigger Enabled="false" Name="Gleaming steel, plunge and take fiery edge!" Id="db313b77-f57c-4104-885a-46f8563840b6" RegularExpression="Gleaming steel, plunge and take fiery edge!">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Chariot + Dive + Thermo" TextAuraFontSize="0" ActionType="UseTTS" />
+            </Actions>
+          </Trigger>
+        </Triggers>
+      </Folder>
+      <Folder Id="32f63d92-2202-4059-8434-6d5ca27bb2ae" Name="TEA" Enabled="true">
+        <Folders>
+          <Folder Id="fe52796a-92d5-49b4-b79f-6d9fd861217a" Name="DEBUG" Enabled="false">
+            <Folders>
+              <Folder Id="b5557676-e295-40ee-a044-cd0db97ac534" Name="Living Liquid" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Name="Cascade" Id="e02e5a04-3805-4884-817a-263e8489000e" RegularExpression=":Living Liquid:4826:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Cascade" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Cascade Enrage" Id="61c074c8-f119-45d3-830e-61c74847e136" RegularExpression=":Living Liquid:49B3:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Enrage" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Drainage" Id="c6ee0665-3aa1-4f67-9ec1-7c5cc0316d3f" RegularExpression=":Liquid Rage:4827:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Drainage" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Exhaust" Id="c505bab7-0bba-4a0a-a8ee-7120a2589e6c" RegularExpression=":Jagd Doll:481E:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Exhaust" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" RefireRequeue="False" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Fluid Strike" Id="4c586831-8fb9-47e5-86c8-e7c483395396" RegularExpression=":Liquid Hand:49B7:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Fluid Strike" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Fluid Swing" Id="2456b5c6-bf99-4db8-ba77-6041a545ea5f" RegularExpression=":Living Liquid:49B0:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Fluid Swing" UseTTSExclusive="False" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Hand" Id="67ca2c2f-cc94-4bd5-9fd7-f65185c6b2c6" RegularExpression=":Liquid Hand:482[BC]:">
+                    <Actions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Hand of Pain" Id="17fc7c06-7e6a-48eb-bc73-bce0685b08ff" RegularExpression=":Liquid Hand:482D:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Hand of Pain" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Liquid Gaol" Id="063600f3-e64e-4580-be28-853dfc673dd5" RegularExpression=":Liquid Rage:4828:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Liquid Gaol" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Pressurize" Id="93e353ff-e624-47ca-8a4b-9a84a98d453f" RegularExpression=":Liquid Rage:4829:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Pressurize" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Protean Wave 1" Id="73e3ef5b-f309-4581-a1a0-3c069fbbf140" RegularExpression=":Living Liquid:4822:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Protean" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Protean Wave 2" Id="0a829fd1-c84d-4888-9f4e-9c1bb9624ab7" RegularExpression=":Living Liquid:4823:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Protean" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Protean Wave 3" Id="7f013d8b-675b-4118-9988-5d411a821c2d" RegularExpression=":Living Liquid:4823:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Protean" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Rage Wave 1" Id="cce58775-0029-4ac5-9674-625bb3fd8ea2" RegularExpression=":Liquid Rage:49B5:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Wave 1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Rage Wave 2" Id="e0aee48b-f685-41d2-83c1-9ee4c4f75279" RegularExpression=":Liquid Rage:49B6:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Wave 2" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Sluice" Id="5bf4573f-4cef-4aa0-ab1d-370b560c2a4c" RegularExpression=":Liquid Rage:49B1:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Sluice" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Splash" Id="d3b3a096-e7c5-47c3-b862-16d7f38a84ad" RegularExpression=":Living Liquid:49B2:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Splash" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                </Triggers>
+              </Folder>
+            </Folders>
+            <Triggers />
+          </Folder>
+          <Folder Id="ac9f5268-32eb-42ea-beaf-9d27779295cb" Name="Living Liquid" Enabled="false">
+            <Folders />
+            <Triggers />
+          </Folder>
+          <Folder Id="6b7f5575-c530-473b-9cf6-da2447caedf3" Name="Cruise Chaser" Enabled="true">
+            <Folders>
+              <Folder Id="0ae68cbb-7cfa-48df-8fef-bfc2f0edb867" Name="NUMBERS" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Name="{4}:.{4}:004F:.{4}:.{4}:.{4}" Id="39d25911-282e-4819-b08b-2f5bcb9ed04d" RegularExpression="It's Naguya:.{4}:.{4}:004F:.{4}:.{4}:.{4}:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="One" TextAuraFontSize="0" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="{4}:.{4}:0050:.{4}:.{4}:.{4}" Id="5764f018-5953-4900-a2b0-d6008a0c9bc6" RegularExpression="It's Naguya:.{4}:.{4}:0050:.{4}:.{4}:.{4}:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Two" TextAuraFontSize="0" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="{4}:.{4}:0051:.{4}:.{4}:.{4}" Id="6b03cc3a-2918-4e96-a387-7f9bfe02ec1e" RegularExpression="It's Naguya:.{4}:.{4}:0051:.{4}:.{4}:.{4}:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Three" TextAuraFontSize="0" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="{4}:.{4}:0052:.{4}:.{4}:.{4}" Id="b1760d16-92e0-4146-974b-5013d12df68a" RegularExpression="It's Naguya:.{4}:.{4}:0052:.{4}:.{4}:.{4}:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Four" TextAuraFontSize="0" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="{4}:.{4}:0053:.{4}:.{4}:.{4}" Id="b5494120-bc84-474e-8d18-7905d5fdfeef" RegularExpression="It's Naguya:.{4}:.{4}:0053:.{4}:.{4}:.{4}:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Five" TextAuraFontSize="0" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="{4}:.{4}:0054:.{4}:.{4}:.{4}" Id="84d14667-d500-4b4c-8c42-1a9e94283907" RegularExpression="It's Naguya:.{4}:.{4}:0054:.{4}:.{4}:.{4}:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Six" TextAuraFontSize="0" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="{4}:.{4}:0055:.{4}:.{4}:.{4}" Id="d62b6617-8f17-4e52-b1ec-b4f1fd554df8" RegularExpression="It's Naguya:.{4}:.{4}:0055:.{4}:.{4}:.{4}:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Seven" TextAuraFontSize="0" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="{4}:.{4}:0056:.{4}:.{4}:.{4}" Id="4b4712d0-dfef-459f-8626-13abb68c7e89" RegularExpression="It's Naguya:.{4}:.{4}:0056:.{4}:.{4}:.{4}:">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Eight" TextAuraFontSize="0" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                </Triggers>
+              </Folder>
+            </Folders>
+            <Triggers />
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+    </Folders>
+    <Triggers />
+  </ExportedFolder>
+</TriggernometryExport>

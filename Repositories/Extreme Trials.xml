@@ -1,0 +1,843 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="58958b2e-9fa0-4cf2-83ab-cf0f401948da" Name="Extreme Trials" Enabled="true">
+    <Folders>
+      <Folder Id="b8b30fe8-3557-4468-ab4d-5a3087575f71" Name="Heavensward Extreme Trails" Enabled="true">
+        <Folders>
+          <Folder Id="43ac4cdf-5019-4bd1-9008-21799b69f3f9" Name="Nidhogg Extreme" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Nidhogg readies Hot Tail." Id="5c7cf42d-e2cb-411b-9169-2eeec4f4e267" RegularExpression="Nidhogg readies Hot Tail.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Flank" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Nidhogg readies Hot Wing." Id="985e6abc-abeb-4f4b-b390-d29c38829961" RegularExpression="Nidhogg readies Hot Wing.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Rear" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Shadow Dragon readies Fireball" Id="0f9b8150-4d54-46fd-acd4-c31230552214" RegularExpression="Shadow Dragon readies Fireball">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Fireball" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Shadow Dragon readies Ripper Claw" Id="1e1959d0-faaf-4c08-8292-84fca1d34279" RegularExpression="Shadow Dragon readies Ripper Claw">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Ripper Claw" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="You suffer the effect of Clawbound" Id="efcb42f0-7418-4923-9448-553fc4012bd8" RegularExpression="You suffer the effect of Clawbound">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Red" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="You suffer the effect of Fangbound" Id="dcf8c392-7204-4ad7-989a-67177615ee3e" RegularExpression="You suffer the effect of Fangbound">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Blue" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="3f651e55-6470-4ec0-8c4c-e824250d85f5" Name="Ravana Extreme" Enabled="false">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="The Seeing Right." Id="27e53d04-0256-4dea-84f6-e0871cd48d9b" RegularExpression="The Seeing Right.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Left" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="The Seeing Wings." Id="83f553fb-9850-4e8d-b6c7-364f9283abe4" RegularExpression="The Seeing Wings.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Front" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="The Seeing Left." Id="19727084-7e1b-47a5-a387-649eb68d8fc4" RegularExpression="The Seeing Left.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Right" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Ravana gains the effect of Offensive Optimization" Id="ea30e922-bac8-4fff-872f-b3b060c58e4c" RegularExpression="Ravana gains the effect of Offensive Optimization" PrevActionsRefire="Deny">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Ravana takes increased damage" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Ravana gains the effect of Defensive Optimization" Id="eeb96f25-891a-4bf5-80fc-dc8f0a922727" RegularExpression="Ravana gains the effect of Defensive Optimization" PrevActionsRefire="Deny">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Ravana takes decreased damage" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Ravana readies Liberation" Id="52741a07-3cec-4533-af92-0fc591bee9e6" RegularExpression="Ravana readies Liberation">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Get behind him" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Ravana readies Pillars of Heaven" Id="e9fb2854-b756-40f2-8a83-db1892d02dea" RegularExpression="Ravana readies Pillars of Heaven">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Get against a wall" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Ravana readies Prelude to Liberation" Id="c92fbf01-5f5b-49a0-9870-25804c888392" RegularExpression="Ravana readies Prelude to Liberation">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Make your way to the back" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Ravana readies Swift Liberation" Id="eb6b8c88-fa6b-4985-ad87-6868450b53dc" RegularExpression="Ravana readies Swift Liberation">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Standby for swords" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="353763ab-b167-4a1e-b210-9534aa4331c1" Name="Thordan Extreme" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="King Thordan casts The Dragon's Eye." Id="4caf7e3b-dba9-4ad8-82d0-982035726a7a" RegularExpression="King Thordan casts The Dragon's Eye.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Eye up" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="King Thordan begins casting The Dragon's Gaze" Id="3c8fcfb8-d77a-4563-94c0-284a78df37f3" RegularExpression="King Thordan begins casting The Dragon's Gaze">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Gaze" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="King Thordan begins casting The Dragon's Rage" Id="6c421c3e-a342-4c85-a779-1ef6a377eef7" RegularExpression="King Thordan begins casting The Dragon's Rage">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Rage" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="King Thordan readies Heavenly Heel." Id="56dba407-4e9b-41f7-858d-f2999f488e5a" RegularExpression="King Thordan readies Heavenly Heel.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Heel" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Ser Adelphel casts Divine Right." Id="424512fa-57ed-4808-9541-3d55196854a1" RegularExpression="Ser Adelphel casts Divine Right.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Divine Right" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Ser Ignasse readies Spiral Thrust." Id="549be5f4-c2f6-4db9-995d-24a772b17b86" RegularExpression="Ser Ignasse readies Spiral Thrust.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Spiral Thrust" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Ser Zephirin readies Spear of the Fury." Id="e7e48a21-6b63-4649-8a3f-6266b99a579b" RegularExpression="Ser Zephirin readies Spear of the Fury.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Spear of Fury" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="1db13306-df8e-47e1-ba9b-4c92acf41b82" Name="Zurvan Extreme" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Zurvan readies The Demon's Claw" Id="798f5e73-9265-42b7-8fc9-b5f132f8f540" RegularExpression="Zurvan readies The Demon's Claw">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="main tank knockback incoming" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Zurvan readies Biting Halberd" Id="2f79d14e-7c64-4f91-b3dd-425a024f3c1b" RegularExpression="Zurvan readies Biting Halberd">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="get behind the boss" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Zurvan readies Tail End" Id="87436fe7-e402-428e-8424-c9d5d32777ab" RegularExpression="Zurvan readies Tail End">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="get away from the boss" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Zurvan readies Wave Cannon" Id="88d3c481-9a01-4d1e-ac1b-e9549a836d98" RegularExpression="Zurvan readies Wave Cannon">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Wave Cannon" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Zurvan readies Soar" Id="ad3aff8c-ad9f-46c7-8bdc-7a604243edfb" RegularExpression="Zurvan readies Soar">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Soar is incoming" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Zurvan readies Southern Cross" Id="0c402924-7a32-4c7c-b794-98a3163be0d4" RegularExpression="Zurvan readies Southern Cross">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="stack &amp; spread" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Zurvan readies Ciclicle" Id="4c1839fa-7b9b-4ba6-a68c-ac01bf8b835a" RegularExpression="Zurvan readies Ciclicle">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="get close to the boss" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="0d497527-545e-4bc8-b7de-5b27b2d07a43" Name="Sophia Extreme" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Sophia readies Thunder II." Id="56867ccf-c88f-47d6-b6e3-2d80bce4b5d1" RegularExpression="Sophia readies Thunder II.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Front" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Sophia readies Thunder III" Id="53ab6439-a3cf-49cf-83a7-b6cc89761e92" RegularExpression="Sophia readies Thunder III">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="in" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="cbfe6be1-03f0-4f01-81c6-70c3c759bb2e" Name="Sephirot Extreme" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="You suffer the effect of Force Against Might." Id="0a2b6911-718e-426c-b91b-59d06b146731" RegularExpression="You suffer the effect of Force Against Might.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="red" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="You suffer the effect of Force Against Magic." Id="7980fdd1-2060-426a-b1dd-cb768900b9fd" RegularExpression="You suffer the effect of Force Against Magic.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="green" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+      <Folder Id="9b326e09-902e-439c-bddc-69fbc841eda1" Name="Shadowbringers Extreme Trials" Enabled="true">
+        <Folders>
+          <Folder Id="7cc35c8e-1b6d-4bab-be00-ff49d4c68313" Name="Titania Extreme" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Titania begins casting Mist Rune." Id="a63440b1-b20b-4965-aadb-632191e4a620" RegularExpression="Titania begins casting Mist Rune.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Puddles" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Titania begins casting Flame Rune." Id="e116c492-b06c-42c3-9f06-fb2a7f3b8661" RegularExpression="Titania begins casting Flame Rune.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Fire Fist " TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="This may tingle a bit!" Id="8fe4f47a-ddb9-4721-92ba-4d746663a715" RegularExpression="This may tingle a bit!">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Tethers" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Titania begins casting Fae Light." Id="45636c3f-dc06-499b-909c-bbb892bd3035" RegularExpression="Titania begins casting Fae Light.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Get Behind" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Titania begins casting Growth Rune." Id="e291ff90-0b7d-4e93-b239-94a799635438" RegularExpression="Titania begins casting Growth Rune.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Bushes" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Titania begins casting Chain of Brambles." Id="425f9550-c543-4812-b8c8-289dcbcce3bf" RegularExpression="Titania begins casting Chain of Brambles.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="De-tether" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Titania begins casting Divination Rune." Id="de7f26fe-88d6-4fc5-92d6-37dfb9e3c363" RegularExpression="Titania begins casting Divination Rune.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Get Behind" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Titania begins casting Frost Rune." Id="b4b22b3b-d864-4563-828f-6bc65758f845" RegularExpression="Titania begins casting Frost Rune.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Ice" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="The more the merrier! Join us, my children!" Id="959d70e7-c8ca-4d7b-908d-e2b74a0f2257" RegularExpression="The more the merrier! Join us, my children!">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Mustard First" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="14:3D4C:Titania starts using Phantom Rune on Titania" Id="15e5b319-80be-48e3-8c44-67373cf6ebe8" RegularExpression="14:3D4C:Titania starts using Phantom Rune on Titania">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression=" Get Out" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="14:3D4D:Titania starts using Phantom Rune on Titania" Id="552687e7-f84d-4f07-ae50-0488f0b42e9b" RegularExpression="14:3D4D:Titania starts using Phantom Rune on Titania">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression=" Get in" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="18160426-82b7-44dc-b061-84b6d75c7c51" Name="Crown Extreme" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Innocence begins casting Winged Reporbation." Id="24234064-3ac3-4de0-90e8-0359d5245692" RegularExpression="Innocence begins casting Winged Reporbation.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Winged" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Innocence begins casting Righteous Bolt." Id="97430fcf-1aa2-4735-bc79-d2b2b731743c" RegularExpression="Innocence begins casting Righteous Bolt.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Tank Swap" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Innocence begins casting Rightful Reporbation." Id="8a84c45f-e3e9-434d-a962-8223e2500a11" RegularExpression="Innocence begins casting Rightful Reporbation.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Sides" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Your reckoning comes" Id="0d323e8c-1206-410c-bf20-81493772194e" RegularExpression="Your reckoning comes">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Shame first" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Innocence begins casting Starbirth." Id="0585bb4d-5a05-4f68-8d8f-24d638de8370" RegularExpression="Innocence begins casting Starbirth.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Stars" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Innocence begins casting Beatific Vision." Id="ae49cef1-c756-4853-a942-e59b916f00e9" RegularExpression="Innocence begins casting Beatific Vision.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Lazer" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Innocence begins casting God Ray." Id="2024276c-2fa4-4c9a-818a-cb3191f18c19" RegularExpression="Innocence begins casting God Ray.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Lazer" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="43fe9ca6-c40d-4329-8875-a34302195c24" Name="Hades Extreme" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Hades begins casting Shadow Spread." Id="96d9f6e4-707f-4802-b5e5-ab296ce6629a" RegularExpression="Hades begins casting Shadow Spread.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Spread, Safe" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Bad Faith." Id="f2065136-9ba3-451f-bacf-94a4de1f7590" RegularExpression="Hades begins casting Bad Faith.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Safe wall, move in" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Ravenous Assault." Id="938231ba-7977-4ab4-a5a2-6c3bc157349a" RegularExpression="Hades begins casting Ravenous Assault.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Tank Buster, Swap" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Arcane Utterance." Id="c1724511-ada6-49ae-a124-3b895caeaa81" RegularExpression="Hades begins casting Arcane Utterance.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Orbs open, Panels opposite open" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Broken Faith." Id="f1fa8fad-a3ac-4a34-beda-79558171356a" RegularExpression="Hades begins casting Broken Faith.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Avoid circles" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Quake III." Id="315124e2-676a-4625-9104-a5d26d6c5e5d" RegularExpression="Hades begins casting Quake III.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Tanks Meteors, aim cones out....... Next Red Debuff attack Ice Shade" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Universal Manipulation." Id="8811e996-a39c-4fde-9108-0db10cd6e725" RegularExpression="Hades begins casting Universal Manipulation.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Debuffs - Positions - Face away" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Doom." Id="e1dbf200-944d-4d99-823f-9bd5c8830759" RegularExpression="Hades begins casting Doom.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Full Heal - Tank Heal Sides, DPS corners" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Blight." Id="6f537dab-9858-4c20-8e49-37523d6631d1" RegularExpression="Hades begins casting Blight.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Stack - Heal" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Height of Chaos." Id="383a10cb-8680-45f5-b0de-895ac90f5888" RegularExpression="Hades begins casting Height of Chaos.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Tank buster" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Megiddo Flame." Id="3813f23d-3a1c-4ca0-856e-4fd4bb6e3504" RegularExpression="Hades begins casting Megiddo Flame.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Lines." TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Shadow Flare." Id="430cbb8b-46e8-4519-8b5d-bff300013812" RegularExpression="Hades begins casting Shadow Flare.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="AOE." TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Against the Majestic." Id="f6958727-5a3f-4994-acd2-894bafef5194" RegularExpression="Hades begins casting Against the Majestic.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Tank Comets." TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Captivity." Id="319bb1cb-ecf2-4f75-8dc2-e5b41124e473" RegularExpression="Hades begins casting Captivity.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Healer Jail." TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Against the Martyr." Id="d72bbd87-a615-4471-bd67-943e26af3633" RegularExpression="Hades begins casting Against the Martyr.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Stack 1, Tank Heal East West, Dps Inter-cardinals." TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Against the Abyssal Celebrant." Id="10e3f641-1003-40f9-bcab-97042622d98a" RegularExpression="Hades begins casting Against the Abyssal Celebrant.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Outside Lines." TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Dark Seal." Id="e2837f3e-dd57-49d3-a5cb-5cc9707a577a" RegularExpression="Hades begins casting Dark Seal.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Watch Puddles." TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Polydegmon's Purgation." Id="57ee2612-336f-4b64-8cdb-56b3233529e6" RegularExpression="Hades begins casting Polydegmon's Purgation.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Center." TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Shadow Stream." Id="38d071f0-8d28-4bd0-9e4d-c394edaff3a8" RegularExpression="Hades begins casting Shadow Stream.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Outside." TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Life in Captivity." Id="11899b60-e07a-495a-be57-95dc5e00c14b" RegularExpression="Hades begins casting Life in Captivity.">
+                <Actions>
+                  <Action OrderNumber="1" PlaySoundFileExpression="C:\\\\Users\\\\(USERNAME)\\\\AppData\\\\Roaming\\\\Advanced Combat Tracker\\\\Config\\\\Shooting Stars.wav" TextAuraFontSize="0" ActionType="PlaySound" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Dark Current." Id="7e249099-b344-4300-9fe4-f2a7855786a0" RegularExpression="Hades begins casting Dark Current.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="West side, safe 2 puddles, move safe. Repeat." TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Gigantomachy." Id="d8e772b5-e126-430d-8526-a10d5b520ab7" RegularExpression="Hades begins casting Gigantomachy.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="AOE." TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Hades begins casting Quadstrike." Id="925b3280-4730-4edf-ae64-b028178ee2a8" RegularExpression="Hades begins casting Quadstrike.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="2 AOE, Tank Tower, AOE and Big Bleed." TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="519b26d0-60cd-4b63-8853-ba2b2a268e2c" Name="Ruby Weapon Extreme" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Ravensclaw" Id="57ff6eeb-c8f1-42e2-b13b-d97fa92f0297" RegularExpression="The Ruby Weapon readies Ravensclaw">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Clock Positions" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Stamp" Id="d61eedd8-1471-43fe-a554-6f55e164b2dd" RegularExpression="The Ruby Weapon readies Stamp">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Tank Buster Swap" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Ruby Ray" Id="b3a88475-3bb2-48e9-941d-cf8fcd1fbd4f" RegularExpression="The Ruby Weapon begins casting Ruby Ray">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Dodge Front" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Optimized Ultima" Id="58012d30-44b3-43cd-8d31-e495c310d0d9" RegularExpression="The Ruby Weapon begins casting Optimized Ultima">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Big AOE" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Magitek Bit" Id="86f01a85-6aea-4616-8cf5-fb86d8cb9cd5" RegularExpression="The Ruby Weapon readies Magitek Bit">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Dodge Lines" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Undermine" Id="ca8dcd31-4c04-407e-b7ed-dde10fe54de8" RegularExpression="The Ruby Weapon readies Undermine">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Get Off The Line" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Ravensflight" Id="110db740-fa42-4573-b6e7-19729a7c4fcc" RegularExpression="The Ruby Weapon readies Ravensflight">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Dodge Ravensflight" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="false" Name="Liquefaction" Id="49c37cf0-e265-4418-9fca-359490b441cf" RegularExpression="The Ruby Weapon uses Liquefaction">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Liquefaction." TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="false" Name="Iron Chariot" Id="b65778a7-ed77-491a-bf87-e20d0f0c485f" RegularExpression="The Raven's image begins casting Iron Chariot">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Stay Out" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Ruby Claw." Id="ed4f1a67-68f0-42d5-877b-4ab1b0bac57c" RegularExpression="The Raven's image readies Ruby Claw.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Tank Buster" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Outrage." Id="200cf63f-02b0-47bb-b2a0-d4cb2cb283f6" RegularExpression="The Ruby Weapon begins casting Outrage.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="AoE" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="false" Name="Lunar Dynamo" Id="b4b08ebc-3b31-41cb-9de9-812d7d1fb934" RegularExpression="The Raven's image begins casting Lunar Dynamo.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Go in" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Meteor Mine" Id="e0bddc0c-833c-40a1-b085-bc16a32df6d5" RegularExpression="The Ruby Weapon begins casting Meteor Mine.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Meteor Positions" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Meteor Stream." Id="1d89fa31-8b07-486a-a8f5-2870781e783a" RegularExpression="The Ruby Weapon readies Meteor Stream.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="DPS Damage" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Mark II Magitek Comet." Id="0ee81803-2b5d-4b50-a5b1-32f5b86d177f" RegularExpression="The Ruby Weapon casts Mark II Magitek Comet.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Catch Comets" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Negative Aura" Id="cf5d7cc4-4f55-4684-9828-172f936d7db4" RegularExpression="The Ruby Weapon begins casting Negative Aura.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Negative Aura" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+      <Folder Id="4413333d-21d5-49b1-b89d-722b9e11ad7e" Name="Stormblood Extreme Trails" Enabled="true">
+        <Folders>
+          <Folder Id="d4a9dcd5-789d-4672-bce8-e88c0b5d2858" Name="Shinryu" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Shinryu readies Judgment Bolt" Id="18f5f6dc-b919-4571-b6ad-f2d6543257e7" RegularExpression="Shinryu readies Judgment Bolt">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Judgement" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Shinryu readies Atomic Ray" Id="cfef0dc1-b38f-4be8-849b-420e256bb578" RegularExpression="Shinryu readies Atomic Ray">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Magic Stack" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Shinryu readies Akh Morn" Id="6535e9ab-76f4-4308-87f7-70927d6d8253" RegularExpression="Shinryu readies Akh Morn">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Tank buster" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Shinryu readies Tidal Wave" Id="6fb3acd1-328d-48ca-97f5-e0bad555e019" RegularExpression="Shinryu readies Tidal Wave">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Tidals" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Shinryu uses Tera Slash" Id="6a0b64a2-c8b2-4790-b53a-dcb693b9f297" RegularExpression="Shinryu uses Tera Slash">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Tank Buster" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="The left wing readies Summon Icicle" Id="3f31116c-1062-4861-861b-3b759c567a81" RegularExpression="The left wing readies Summon Icicle">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Icebolts" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="The right wing readies Hypernova" Id="3f5da369-1cf9-4381-9653-6cc8a3d1a1cd" RegularExpression="The right wing readies Hypernova">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Stack" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="The right wing readies Levinbolt" Id="064fe14d-5319-442d-bf1e-c0a422c84c2e" RegularExpression="The right wing readies Levinbolt">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Spread" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="The heart has fully regenerated." Id="430cd9fe-94a4-4773-8ec0-5620448d2e15" RegularExpression="The heart has fully regenerated.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="heart" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="8b38d026-9a5d-43f5-a7eb-9087fccae10e" Name="Byakko" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Behind" Id="1827b152-32ca-40da-86fe-4a14123a7115" RegularExpression=" readies Sweep the Leg.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="behind" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+                </Actions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="435d512b-f0c8-4854-bfcb-d1f8601bdb1f" Name="Tsukoyomi OLD" Enabled="true">
+            <Folders>
+              <Folder Id="d21d974f-86b8-4fcc-aa91-3c92ebd2bde4" Name="old" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Name="AOE" Id="d3120e24-2354-4f16-8aa8-f546abee2f34" RegularExpression=" readies Reprimand.">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="AOE" UseTTSExclusive="False" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Bright blade" Id="9d2c009e-3b9a-4917-949f-3df20074e6f0" RegularExpression="readies Bright Blade.">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="dodge back right" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Dark Blade" Id="76c06273-410a-445a-a45f-c398d9f540a5" RegularExpression="readies Dark Blade.">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Dodge back left" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Halo" Id="9a7445d7-b75e-463c-a7b8-bc7498e1d839" RegularExpression="readies Lunar Halo.">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Lunar halo" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Moons" Id="a9f766b7-406c-482b-8753-4593f34b2bed" RegularExpression=" readies Supreme Selenomancy.">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Moon phase incoming" UseTTSExclusive="False" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Phase change" Id="e9dd9405-48eb-4015-9a9b-c977fba1dc15" RegularExpression=" readies Nightbloom.">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Addphase incoming" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Puddle" Id="6605ac90-a49e-42cf-9cce-8d52707920d3" RegularExpression="a sweeping doom, striking from darkness!">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="into puddle" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Shiva" Id="b358ec29-654b-4ee0-ae59-583e0b9c3195" RegularExpression="readies Zashiki-asobi.">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Shiva" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Stackmarker" Id="a91baba3-67fa-43ab-b901-cf67f39dbac1" RegularExpression="readies Lunacy.">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="stay together" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Tankbuster" Id="0c1f9927-1350-4c8a-9993-e2ba2985df3f" RegularExpression="readies Torment Unto Death.">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Tankbuster. Swap after" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="false" Name="Weapon" Id="71ba9698-6378-417a-9146-1b001a7a9caa" RegularExpression="readies Nightfall.">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Check weapon" TextAuraFontSize="0" ActionType="UseTTS" RefireInterrupt="True" />
+                    </Actions>
+                  </Trigger>
+                </Triggers>
+              </Folder>
+            </Folders>
+            <Triggers />
+          </Folder>
+          <Folder Id="c1a973fb-1c1d-44dd-ab42-79e21fdc6e24" Name="Tsukuyomi" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="false" Name="Tsukuyomi readies Reprimand." Id="e4eeb626-27e6-45b5-853c-c54bdf0436d9" RegularExpression="Tsukuyomi readies Reprimand.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="AoE" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="false" Name="starts using Nightfall on Tsukuyomi." Id="617db420-3b0e-471b-91f2-d0015b7443e4" RegularExpression="starts using Nightfall on Tsukuyomi.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Stack" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Tsukuyomi:2BBC:" Id="a20d4994-d317-4683-b66a-758ba6d9a553" RegularExpression="Tsukuyomi:2BBC:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Gun" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Tsukuyomi:2BBD:" Id="333c8826-fb32-47f3-9171-06325527f4cb" RegularExpression="Tsukuyomi:2BBD:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Spear" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="false" Name="You suffer the effect of Moonlit." Id="8125266b-7340-4310-b104-950b997a7b75" RegularExpression="You suffer the effect of Moonlit.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="To dark side" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="false" Name="You suffer the effect of Moonshadowed." Id="751c7e20-da88-4f6b-8137-56a3ffb27650" RegularExpression="You suffer the effect of Moonshadowed.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="To light side" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="false" Name="1B:10257544:Naguya Ishikawa" Id="d4ca289d-81fe-416b-a428-6ce0617814ec" RegularExpression="1B:10257544:Naguya Ishikawa">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Meteor" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="false" Name="1B:1016240B:Naguya Ishikawa" Id="aa4666dc-4c38-4b7b-8cdb-99f5de3b9487" RegularExpression="1B:1016240B:Naguya Ishikawa">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Meteor" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="false" Name="1B:1002BFF6:Naguya Ishikawa" Id="150a57a0-0ddd-467f-85f1-b09da0ccadd5" RegularExpression="1B:1002BFF6:Naguya Ishikawa">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Meteor" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="false" Name="new moon infuses Tsukuyomi!" Id="e8a6a925-20ba-40e5-8259-01a6053bb516" RegularExpression="new moon infuses Tsukuyomi!">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Inside" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="false" Name="full moon infuses Tsukuyomi!" Id="a58d8ed9-6df8-465d-907c-8202cb9c0b52" RegularExpression="full moon infuses Tsukuyomi!">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Outside" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="false" Name="Tsukuyomi readies Torment Unto Death." Id="eef355e2-51ee-4866-be45-4f15b70e0879" RegularExpression="Tsukuyomi readies Torment Unto Death.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Tank buster" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="false" Name="starts using Bright Blade on Tsukuyomi." Id="0932c796-7047-4d24-9ba9-4ac78b834477" RegularExpression="starts using Bright Blade on Tsukuyomi.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Southeast" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="false" Name="starts using Dark Blade on Tsukuyomi." Id="32399db1-54c1-4fcf-af82-4827134b1090" RegularExpression="starts using Dark Blade on Tsukuyomi.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Southwest" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="false" Name="Tsukuyomi readies Zashiki-asobi." Id="fed4817c-47e7-437b-bdfc-40be59be49ac" RegularExpression="Tsukuyomi readies Zashiki-asobi.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Fans" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="3d723507-404d-4bf0-ac0d-cb37f76f0a8e" Name="Suzaku" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Suzaku begins casting Close-quarter Crescendo." Id="7ff78a33-323a-4b6b-81db-cf0a98cd224d" RegularExpression="Suzaku begins casting Close-quarter Crescendo.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Teathers" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Suzaku begins casting Cremate." Id="c5131767-c3ee-48c9-b0ab-872b7dced1f9" RegularExpression="Suzaku begins casting Cremate.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Tank buster" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Suzaku begins casting Incandescent Interlude." Id="bd0a0eaf-640a-420c-980a-49e64de1365e" RegularExpression="Suzaku begins casting Incandescent Interlude.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Meteors" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Suzaku begins casting Mesmerizing Melody." Id="2961659d-6fdc-4f60-b4db-41c709791ca9" RegularExpression="Suzaku begins casting Mesmerizing Melody.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Outside" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Suzaku begins casting Ruthless Refrain." Id="13ead166-3f13-4f27-8f47-eb6176d946c9" RegularExpression="Suzaku begins casting Ruthless Refrain.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="knockback" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Suzaku begins casting Screams of the Damned." Id="36afd067-fe18-460d-8f04-9fdee13136a0" RegularExpression="Suzaku begins casting Screams of the Damned.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="AoE" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Suzaku begins casting Southron Star." Id="dd20be8b-8f6e-4fc8-b696-74abe84559f9" RegularExpression="Suzaku begins casting Southron Star.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="AoE" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Suzaku begins casting Well of Flame." Id="75a936ae-96e4-47af-93ae-46db3354e342" RegularExpression="Suzaku begins casting Well of Flame.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Spread then stack" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Suzaku readies Phantom Flurry" Id="79862d24-dafd-49f1-b1f5-b359ee165f7b" RegularExpression="Suzaku readies Phantom Flurry">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="cleave" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Suzaku readies Phoenix Down" Id="b25184cf-dcf0-4def-8467-d3f96c6b86c1" RegularExpression="Suzaku readies Phoenix Down">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Birbs" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="27b932b9-82ba-45f6-9dc7-612e8c118c99" Name="Seiryu" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Seiryu readies Cursekeeper." Id="8d03d64c-7a95-43c0-8f4a-6db19461ec7a" RegularExpression="Seiryu readies Cursekeeper.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Tank Swap" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Seiryu uses Summon Shiki." Id="5b153cc8-a12d-44b5-8fff-9f77ad936224" RegularExpression="Seiryu uses Summon Shiki.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Adds" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="false" Name="readies 100-tonze Swing." Id="849fc9ec-5ad4-417f-b932-0198545eab55" RegularExpression="readies 100-tonze Swing.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Avoid AOE" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="false" Name="Kanabo" Id="71ad8033-731c-49b2-b510-bb9646b2414e" RegularExpression="Kanabo">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Tank Buster" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="The blue orochi readies Coursing River." Id="c826a8f6-4179-4665-84b5-2615b0e24bc3" RegularExpression="The blue orochi readies Coursing River.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Snake Pushback" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Seiryu readies Fifth Element." Id="7a70e4cc-7d65-41e4-96d0-7c44d7309e11" RegularExpression="Seiryu readies Fifth Element.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="aoe" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="false" Name="Seiryu uses Forbidden Arts." Id="0ecaaede-06b3-4efd-a35e-fbca6efb4534" RegularExpression="Seiryu uses Forbidden Arts.">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="out" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Seiryu readies Kuji-kiri" Id="2437c586-922f-4834-aa64-0fdf7dde8f62" RegularExpression="Seiryu readies Kuji-kiri">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Line AOEs" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Yama-no-shiki:37E6" Id="b5972178-161e-4918-9c25-0a599afe081d" RegularExpression="Yama-no-shiki:37E6">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="left" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Yama-no-shiki:37E5" Id="cb94ce06-0855-4933-b270-e761a0da9870" RegularExpression="Yama-no-shiki:37E5">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="right" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Seiryu readies Serpent Ascending" Id="a597d509-b23b-431e-b142-819f8fe99b19" RegularExpression="Seiryu readies Serpent Ascending">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="towers" TextAuraFontSize="0" ActionType="UseTTS" />
+                </Actions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+    </Folders>
+    <Triggers />
+  </ExportedFolder>
+</TriggernometryExport>

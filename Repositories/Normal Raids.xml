@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="52667bb8-2b4a-4605-99e9-e80b51838cf3" Name="Normal Raids" Enabled="true">
+    <Folders>
+      <Folder Id="1989c6f5-8f69-4197-a23d-9fae8562c583" Name="Eden Raids (Normal)" Enabled="true">
+        <Folders>
+          <Folder Id="b266ddfa-8805-4547-a6ae-708f8398791b" Name="Eden's Gate" Enabled="true">
+            <Folders>
+              <Folder Id="804104db-dbed-47bf-86d8-ef8b5bc81f9c" Name="Eden 1" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Name="14:3D94:Eden Prime starts using Eden's Gravity" Id="ec197c4b-bda6-4068-8df1-f8d9cccbdb79" RegularExpression="14:3D94:Eden Prime starts using Eden's Gravity">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="aoe" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="14:3DA4:Eden Prime starts using Fragor Maximus" Id="6a521690-9e76-45cf-b289-5cb106680bbd" RegularExpression="14:3DA4:Eden Prime starts using Fragor Maximus">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="aoe" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="14:3D97:Eden Prime starts using Eden's Flare" Id="fd601264-46aa-4ae1-9038-05bfb3935937" RegularExpression="14:3D97:Eden Prime starts using Eden's Flare">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="go under" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="14:3DA3:Eden Prime starts using Pure Light" Id="b37b096e-4fe4-4d4e-954d-8c98a0fa5bac" RegularExpression="14:3DA3:Eden Prime starts using Pure Light">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="behind" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                </Triggers>
+              </Folder>
+              <Folder Id="31cc2a25-a49a-48ed-b7f2-169e02df28b1" Name="Eden 2" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Name="14:3E3C:Voidwalker starts using Doomvoid Slicer" Id="28da80af-80e1-43d6-8cdd-d1d842e9eb1b" RegularExpression="14:3E3C:Voidwalker starts using Doomvoid Slicer">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="go under" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="14:3E46:The Hand Of Erebos starts using Empty Hate" Id="71ff42c0-fc47-4887-b181-28aef657bbc1" RegularExpression="14:3E46:The Hand Of Erebos starts using Empty Hate">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="knockback" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="14:3E6D:Voidwalker starts using Entropy" Id="5e585932-5aee-458f-9514-cc8a1d9b043e" RegularExpression="14:3E6D:Voidwalker starts using Entropy">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="aoe" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                </Triggers>
+              </Folder>
+              <Folder Id="d1c450e1-f74e-45cf-8216-7be630b31a80" Name="Eden 3" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Name="14:3FC4:Leviathan starts using Tidal Roar" Id="575a3d25-9b79-40f5-bd41-1b33f4031f79" RegularExpression="14:3FC4:Leviathan starts using Tidal Roar">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="aoe" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="14:3FD2:Leviathan starts using Tidal Wave" Id="9b0ffdeb-0f25-4fc4-ad97-f5d6b4ec053b" RegularExpression="14:3FD2:Leviathan starts using Tidal Wave">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Wave" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="14:3FD2:Leviathan starts using Tidal Wave" Id="effc8ac1-d811-49f8-9e01-89159591c6a7" RegularExpression="14:3FD2:Leviathan starts using Tidal Wave">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="knockback" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="14:3FD0:Leviathan starts using Undersea Quake" Id="474ebaf4-ae88-454a-8457-7510f684275d" RegularExpression="14:3FD0:Leviathan starts using Undersea Quake">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Stay middle" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="14:3FCF:Leviathan starts using Undersea Quake" Id="c4dfa863-c95f-4c21-95d4-33889b599740" RegularExpression="14:3FCF:Leviathan starts using Undersea Quake">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Go sides" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="14:3FD8:Leviathan starts using Maelstrom" Id="82321090-74c6-4028-a59a-48a8d47f86f0" RegularExpression="14:3FD8:Leviathan starts using Maelstrom">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="Dive phase" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="14:3FD4:Leviathan starts using Tsunami" Id="271ba090-a1eb-4b84-9138-331329f7e715" RegularExpression="14:3FD4:Leviathan starts using Tsunami">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="aoe" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                </Triggers>
+              </Folder>
+              <Folder Id="82fb1906-11b8-4098-9fcb-5bc49fade0ec" Name="Eden 4" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Name="14:40F7:Titan starts using Voice Of The Land" Id="d90d2f35-d85e-41b7-b2c1-fb153e731b9d" RegularExpression="14:40F7:Titan starts using Voice Of The Land">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="aoe" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="14:40F8:Titan starts using Earthen Fury" Id="6f2e63e8-7fcb-4ff9-a1c6-14ff85155c1d" RegularExpression="14:40F8:Titan starts using Earthen Fury">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="dot aoe" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="14:40F9:Titan starts using Stonecrusher" Id="2ae997ee-a813-4517-a829-64f2751d7134" RegularExpression="14:40F9:Titan starts using Stonecrusher">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="tankbuster" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="14:40FA:Titan starts using Massive Landslide" Id="36b8afae-0181-4488-942a-ed20dd3a3a67" RegularExpression="14:40FA:Titan starts using Massive Landslide">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="front" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="14:40F2:Massive Boulder starts using Crumbling Down" Id="bed03fa5-e628-4013-9771-11671d35d067" RegularExpression="14:40F2:Massive Boulder starts using Crumbling Down">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="behind rock" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="14:40F6:Titan starts using Geocrush" Id="556cb537-fbd7-4ce0-9b6d-277cecf389b2" RegularExpression="14:40F6:Titan starts using Geocrush">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="knockback" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="14:4102:Titan starts using Fault Zone" Id="dc43f78f-5c31-475d-8f3c-8c5ed47d885a" RegularExpression="14:4102:Titan starts using Fault Zone">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="flank" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" />
+                    </Actions>
+                  </Trigger>
+                </Triggers>
+              </Folder>
+            </Folders>
+            <Triggers />
+          </Folder>
+          <Folder Id="9c8a227d-3ef1-4062-9b2b-bc05c0ba871b" Name="Eden's Verse" Enabled="true">
+            <Folders>
+              <Folder Id="3c092d93-1b69-4b44-aa81-cc95a39ba789" Name="Eden 5" Enabled="true">
+                <Folders />
+                <Triggers />
+              </Folder>
+              <Folder Id="e85740b8-54f9-4ab3-8f9b-f735e563ec6a" Name="Eden 6" Enabled="true">
+                <Folders />
+                <Triggers />
+              </Folder>
+              <Folder Id="9758679a-970a-44da-b129-5fb5511522ff" Name="Eden 7" Enabled="true">
+                <Folders />
+                <Triggers />
+              </Folder>
+              <Folder Id="780a1a1e-9f4c-4a2b-8bb9-955f43881125" Name="Eden 8" Enabled="true">
+                <Folders />
+                <Triggers />
+              </Folder>
+            </Folders>
+            <Triggers />
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+    </Folders>
+    <Triggers />
+  </ExportedFolder>
+</TriggernometryExport>
